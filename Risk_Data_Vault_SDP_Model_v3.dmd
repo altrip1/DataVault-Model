@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Risk_Data_Vault_SDP_Model_v3" id="EC982F3F-6529-64C8-22A5-7418EAF95A8A" version="3.5">
-<createdBy>5585567</createdBy>
-<createdTime>2022-08-15 14:19:51 UTC</createdTime>
-<ownerDesignName>Credit_Facilites_Limits_DM</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>EC982F3F-6529-64C8-22A5-7418EAF95A8A</designId>
-</OSDM_Design>
