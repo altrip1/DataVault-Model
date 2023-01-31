@@ -53,3 +53,21 @@ INSERT [dbo].[SecurityOwnedAssetDetails] ([OID], [Datecreated], [Version], [Secu
 
 INSERT [dbo].[SecurityOtherChargeDetails] ([OID], [Datecreated], [Version], [SecurityGeneralOID], [LiveRecOID], [SecurityPropertyDetailsOID], [OrderNumber], [Amount], [NexusPartyTypeOID], [PartyNameLegalEntityID], [PartyName], [EndDateTypeOID], [SpecificDate], [Details], [FormNumber], [RankingCoversTypeOID]) VALUES (1855, CAST(N'2010-10-07T13:20:28.900' AS DateTime), CAST(N'2011-04-21T11:18:30.917' AS DateTime), 178175, NULL, NULL, 1, CAST(90.0000000000 AS Decimal(38, 10)), 2, 2000128779, NULL, 1, NULL, NULL, NULL, NULL)
 INSERT [dbo].[SecurityOtherChargeDetails] ([OID], [Datecreated], [Version], [SecurityGeneralOID], [LiveRecOID], [SecurityPropertyDetailsOID], [OrderNumber], [Amount], [NexusPartyTypeOID], [PartyNameLegalEntityID], [PartyName], [EndDateTypeOID], [SpecificDate], [Details], [FormNumber], [RankingCoversTypeOID]) VALUES (1856, CAST(N'2010-10-07T13:20:28.900' AS DateTime), CAST(N'2011-04-21T11:18:30.917' AS DateTime), 178175, NULL, NULL, 2, CAST(110.0000000000 AS Decimal(38, 10)), 1, NULL, NULL, 1, NULL, NULL, NULL, NULL)
+
+
+
+CREATE TABLE [dbo].[SecurityAddressDetails](
+	[OID] [dbo].[objectID] IDENTITY(1,1) NOT NULL,
+	[Datecreated] [datetime] NOT NULL,
+	[Version] [datetime] NOT NULL,
+	[ContactName] [dbo].[descriptionString] NULL,
+	[OfficeName] [varchar](100) NULL,
+	[PropertyName] [varchar](100) NULL,
+	[Street] [varchar](100) NULL,
+	[Town] [varchar](100) NULL,
+	[PostCode] [varchar](15) NULL,
+	[Region] [dbo].[objectID] NULL,
+	[CountryOID] [dbo].[objectID] NULL,
+	[InternalMailNo] [varchar](100) NULL,
+  
+  
