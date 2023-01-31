@@ -71,5 +71,21 @@ INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [Contact
 INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (465752, CAST(N'2017-11-28T10:41:41.553' AS DateTime), CAST(N'2018-11-08T10:49:27.277' AS DateTime), NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 
   
+  CREATE TABLE [dbo].[SecurityHeritableDetails](
+	[OID] [dbo].[objectID] IDENTITY(1,1) NOT NULL,
+	[Datecreated] [datetime] NOT NULL,
+	[Version] [datetime] NOT NULL,
+	[LiveRecOID] [dbo].[objectID] NULL,
+	[SecurityGeneralOID] [dbo].[objectID] NOT NULL,
+	[HeritableChargeTypeOID] [dbo].[objectID] NULL,
+	[OtherHeritableCharge] [dbo].[descriptionString] NULL,
+	[IsPropertyDetailSubjectToConfirmation] [bit] NULL,
+	[IsPartnerConsentRequired] [bit] NULL,
+	[HasPartnetConsentObtained] [bit] NULL,
+	[IsGovtRegulatoryConsentReqd] [bit] NULL,
+	[HasGovtRegulatoryConsentObtained] [bit] NULL,
   
+  INSERT [dbo].[SecurityHeritableDetails] ([OID], [Datecreated], [Version], [LiveRecOID], [SecurityGeneralOID], [HeritableChargeTypeOID], [OtherHeritableCharge], [IsPropertyDetailSubjectToConfirmation], [IsPartnerConsentRequired], [HasPartnetConsentObtained], [IsGovtRegulatoryConsentReqd], [HasGovtRegulatoryConsentObtained]) VALUES (50161, CAST(N'2010-08-14T08:58:26.090' AS DateTime), CAST(N'2010-08-14T08:58:26.090' AS DateTime), NULL, 161511, 1, NULL, 0, 0, NULL, 0, NULL)
+INSERT [dbo].[SecurityHeritableDetails] ([OID], [Datecreated], [Version], [LiveRecOID], [SecurityGeneralOID], [HeritableChargeTypeOID], [OtherHeritableCharge], [IsPropertyDetailSubjectToConfirmation], [IsPartnerConsentRequired], [HasPartnetConsentObtained], [IsGovtRegulatoryConsentReqd], [HasGovtRegulatoryConsentObtained]) VALUES (65340, CAST(N'2010-10-07T13:20:28.967' AS DateTime), CAST(N'2011-04-21T11:18:30.933' AS DateTime), NULL, 178175, 1, NULL, 0, 0, NULL, 0, NULL)
+
   
