@@ -56,18 +56,20 @@ INSERT [dbo].[SecurityOtherChargeDetails] ([OID], [Datecreated], [Version], [Sec
 
 
 
-CREATE TABLE [dbo].[SecurityAddressDetails](
-	[OID] [dbo].[objectID] IDENTITY(1,1) NOT NULL,
-	[Datecreated] [datetime] NOT NULL,
-	[Version] [datetime] NOT NULL,
-	[ContactName] [dbo].[descriptionString] NULL,
-	[OfficeName] [varchar](100) NULL,
-	[PropertyName] [varchar](100) NULL,
-	[Street] [varchar](100) NULL,
-	[Town] [varchar](100) NULL,
-	[PostCode] [varchar](15) NULL,
-	[Region] [dbo].[objectID] NULL,
-	[CountryOID] [dbo].[objectID] NULL,
-	[InternalMailNo] [varchar](100) NULL,
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (113241, CAST(N'2011-02-02T14:27:23.290' AS DateTime), CAST(N'2011-02-02T14:27:23.290' AS DateTime), NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (148719, CAST(N'2011-10-18T17:19:47.850' AS DateTime), CAST(N'2011-11-10T16:42:41.873' AS DateTime), N'JIM DAVIDSON OF MACDONALD HOTELS ', NULL, N'61-63', N'LONDON ROAD', N'REDHILL', N'RH1 1NA', 5, NULL, NULL)
+
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (473235, CAST(N'2017-02-23T10:10:25.270' AS DateTime), CAST(N'2017-02-23T10:10:25.270' AS DateTime), NULL, NULL, N'6', N'Wellington Place', N'London', N'LS1 4AP', 5, NULL, NULL)
+
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (161511, CAST(N'2012-04-04T14:36:31.840' AS DateTime), CAST(N'2012-04-04T14:36:31.840' AS DateTime), NULL, NULL, NULL, N'var', N'var', N'var', 6, NULL, NULL)
+
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (178175, CAST(N'2012-07-04T10:17:00.520' AS DateTime), CAST(N'2012-07-04T10:17:00.520' AS DateTime), NULL, NULL, NULL, N'101 Elderfield Road, Clapton', N'London', N'E5 0LE', 5, 223, NULL)
+
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (465750, CAST(N'2016-11-28T10:41:41.553' AS DateTime), CAST(N'2018-03-08T10:49:27.277' AS DateTime), NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+
+INSERT [dbo].[SecurityAddressDetails] ([OID], [Datecreated], [Version], [ContactName], [OfficeName], [PropertyName], [Street], [Town], [PostCode], [Region], [CountryOID], [InternalMailNo]) VALUES (465752, CAST(N'2017-11-28T10:41:41.553' AS DateTime), CAST(N'2018-11-08T10:49:27.277' AS DateTime), NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+
+  
   
   
