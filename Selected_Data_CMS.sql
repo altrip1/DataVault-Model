@@ -71,3 +71,46 @@ INSERT [dbo].[SecurityHeritableDetails] ([OID], [Datecreated], [Version], [LiveR
 INSERT [dbo].[SecurityHeritableDetails] ([OID], [Datecreated], [Version], [LiveRecOID], [SecurityGeneralOID], [HeritableChargeTypeOID], [OtherHeritableCharge], [IsPropertyDetailSubjectToConfirmation], [IsPartnerConsentRequired], [HasPartnetConsentObtained], [IsGovtRegulatoryConsentReqd], [HasGovtRegulatoryConsentObtained]) VALUES (65340, CAST(N'2010-10-07T13:20:28.967' AS DateTime), CAST(N'2011-04-21T11:18:30.933' AS DateTime), NULL, 178175, 1, NULL, 0, 0, NULL, 0, NULL)
 INSERT [dbo].[SecurityHeritableDetails] ([OID], [Datecreated], [Version], [LiveRecOID], [SecurityGeneralOID], [HeritableChargeTypeOID], [OtherHeritableCharge], [IsPropertyDetailSubjectToConfirmation], [IsPartnerConsentRequired], [HasPartnetConsentObtained], [IsGovtRegulatoryConsentReqd], [HasGovtRegulatoryConsentObtained]) VALUES (134269, CAST(N'2014-02-25T10:20:32.277' AS DateTime), CAST(N'2018-05-23T14:32:44.167' AS DateTime), NULL, 381184, 2, NULL, 0, 0, NULL, 0, NULL)
 
+
+
+Schema 
+Collateral
+Field Name 
+ProvidingCustomerID
+CollateralID 
+CollateralProductSourceSystem
+CollateralTypeID
+CollateralProductSubTypeID
+CollateralStatus
+CollateralProductPropertyTenureTypeID
+COMM_BENEFIT
+REDUCING_SUM
+WAS_ILA_TAKEN
+FINANCIAL_ASSISTANCE
+HAS_SUPPORTING_COLLATERAL
+ESTIMATEDCURRVALUE
+ASSET_REF_ID
+ASSET_LOCATION
+IS_MULTIPLE_ASSETS
+ASSET_DESCRIPTION
+OWNERSHIP_TYPE
+NUMBER_OF_ASSET
+CollateralCharge
+CollateralCharge.ChargeTypeID
+CollateralCharge.ChargeOrderID
+CollateralCharge.ChargeHolderID
+CollateralCharge.ChargeValue
+CollateralValuation
+CollateralValuation.TypeID
+CollateralValuation.SourceID
+CollateralValuation.ValuerNameID
+CollateralValuation.Valuation
+CollateralValuation.Valuation_currency
+CollateralValuation.Valuationdate
+CollateralValuation.GrossValuationActualDate
+CollateralValuation.GrossValuationRecordDate
+CollateralProductUse
+CollateralProductUse.MainType
+CollateralProductUse.SubType
+CommercialProductUse.UsagePercent
+
