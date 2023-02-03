@@ -114,3 +114,18 @@ CollateralProductUse.MainType
 CollateralProductUse.SubType
 CommercialProductUse.UsagePercent
 
+
+CommBenefitDemonstrated
+IsReducingSum
+WasILATaken
+FinancialAssistance
+SupportingCollateral
+GrossValue
+AssetRefId
+AssetLocation
+MultipleAssets
+AssetDescription
+OwnershipType
+NumberOfAssets
+
+
